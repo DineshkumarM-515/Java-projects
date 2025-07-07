@@ -15,7 +15,7 @@ class WeatherApp{
         String city  = sc.nextLine();
         System.out.println("You entered:" + city);
 
-        String apikey = "13d4478e453cbad336e6116c067f0147";
+        String apikey = "apikey-to-be-entered-here";
         String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apikey+"&units=metric";
         System.out.println("URL formed:"+url);
 
